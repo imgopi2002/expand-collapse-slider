@@ -1,13 +1,15 @@
-## Design Preview
-
-![Design Screenshot](screenshot.png)
-
 # 🎴 Expand Collapse Slider (HTML & CSS)
 
 A modern **Expand / Collapse Card Slider UI Design** built using pure
 **HTML & CSS**. When a user hovers over a card, it expands smoothly
 while other cards collapse.
 
+------------------------------------------------------------------------
+
+## 🎨 Design Preview
+
+Preview Link : https://imgopi2002.github.io/expand-collapse-slider/
+![Design Screenshot](screenshot.png)
 ------------------------------------------------------------------------
 
 ## 🚀 Features
