@@ -8,7 +8,7 @@ while other cards collapse.
 
 ## 🎨 Design Preview
 
-You can: https://imgopi2002.github.io/expand-collapse-slider/
+Preview link : https://imgopi2002.github.io/expand-collapse-slider/
 -   ![Design Screenshot](screenshot.png)
   
 ------------------------------------------------------------------------
