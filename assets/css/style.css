@@ -1,0 +1,65 @@
+.ec-carousel-container {
+	position: relative;
+	width: 100%;
+	overflow-x: hidden
+}
+
+.ec-carousel-container .expand-collapse-slider {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	overflow-x: hidden;
+	flex-flow: nowrap
+}
+
+.ec-carousel-container .expand-collapse-card {
+	position: relative;
+	height: 65vh;
+	width: 17.8431372549vh;
+	transition: width .5s;
+	margin-right: 3rem;
+	transform-origin: left
+}
+
+.ec-carousel-container .expand-collapse-card:last-child {
+	margin-right: 0
+}
+
+.ec-carousel-container .collapsed-card {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 65vh;
+	width: 17.8431372549vh;
+	opacity: 1;
+	transition: opacity .5s,width .5s;
+	transform-origin: left;
+    border-radius: 1.5rem;
+}
+
+.ec-carousel-container .expand-card {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 65vh;
+	width: 17.8431372549vh;
+	opacity: 0;
+	transition: opacity .5s,width .5s;
+	transform-origin: left;
+    border-radius: 1.5rem;
+}
+
+.ec-carousel-container .expand-collapse-card:hover {
+	width: 45.8823529412vh;
+	transform-origin: left
+}
+
+.ec-carousel-container .expand-collapse-card:hover .collapsed-card {
+	width: 45.8823529412vh;
+	opacity: 0
+}
+
+.ec-carousel-container .expand-collapse-card:hover .expand-card {
+	width: 45.8823529412vh;
+	opacity: 1
+}
